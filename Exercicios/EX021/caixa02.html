@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        h1#titulo {
+            text-align: center;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+          
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: red;
+            padding: 5px;
+            margin: auto;
+            text-align: center;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.508);
+        }
+        nav > a {
+            text-decoration: none;
+            font-weight: bolder;
+            color: white;
+            margin-right: 10px;
+            
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article {
+            background-color: aquamarine;
+            margin: 10px;
+            padding: 10px;
+        }
+        article > aside {
+            background-color: rebeccapurple;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin: 5px;
+            text-align: center;
+        }
+        div#bola {
+            background-color: white;
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+          
+        }
+        div#bola > p {
+            margin: auto;
+            padding: 33px;
+             
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo">Meu site</h1>
+        <nav>
+            <a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-16-aula-4-grouping-tags-em-html5/" target="_blank" rel="external">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre jubileu</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam eos, impedit cumque id mollitia
+                    laudantium iure laboriosam dolores! Corrupti fuga veniam mollitia rerum! Nisi aliquam eos itaque
+                    quasi architecto?</p>
+                <aside>
+                    <p>Artigo escrito por Matheus de Oliveira</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso em vídeo</p>
+    </footer>
+    <div id="bola">
+        <p>Bola</p>
+    </div>
+</body>
+
+</html>
