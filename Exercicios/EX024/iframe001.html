@@ -4,13 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de Iframes</title>
+    <style>
+        iframe {
+            width: 500px;
+            height: 500px;
+        }
+    </style>
 </head>
 <body>
     <h1>Testando o uso de um iframe</h1>
     <p>Acessando o site do 
-        <iframe src="https://www.cursoemvideo.com/" frameborder="0"></iframe>    
-    para aprender a programar</p>
+        <iframe 
+        
+           src="https://www.cursoemvideo.com/" frameborder="0" scolling="auto" > 
+           
+           <a href="https://www.cursoemvideo.com/" target="_blank"></a> 
+           
+           <!-- Caso não funcione, tipo o do google, vai aparecer o link para o usuario cliclar -->
 
-    <p>O site do <iframe src="https://www.google.com.br/webhp?sourceid=chrome-instant&ion=1&ie=UTF-8&rct=j" frameborder="0"></iframe> é muito legal</p> <!-- O google não deixa aparecer o iframe dele ser utilizado em outros sites.-->
+        </iframe>    
+        para aprender a programar
+    </p>
+
+    <p>
+            O site do 
+            <iframe
+             src="https://www.google.com.br/webhp?sourceid=chrome-instant&ion=1&ie=UTF-8&rct=j" frameborder="0">
+             <a href="https://www.google.com.br/webhp?sourceid=chrome-instant&ion=1&ie=UTF-8&rct=j" target="_blank"></a>
+            </iframe> é muito legal
+    </p>            <!-- O google não deixa aparecer o iframe dele ser utilizado em outros sites.-->
+
+    <p>
+        O repositório do Guanabara 
+        <iframe src="https://gustavoguanabara.github.io" frameborder="0"></iframe>
+        também é bem legal
+    </p>
 </body>
 </html>
