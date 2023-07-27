@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body {
+        height: 100vh;
+        width: 100vw;
+        background-color: darkcyan;
+    }
+    p {
+        margin: 15px;
+        
+    }
+    form {
+        margin: 20px;
+    }
+    fieldset {
+        height: 200px;
+        width: 500px;
+        background-color: darkcyan;
+        border: 2px solid black;
+    }
+
+    legend {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    h1 {
+        
+        background-color: darkgray;
+        text-align: center;
+        padding: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+</style>
+<body>
+    <h1>Testando Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required minlength="5" maxlength="10">
+            </p>
+            <p>
+                <label for="imail">E-mail:</label>
+                <input type="email" name="email" id="imail" required autocomplete="email">
+            </p>
+            <p>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="tel" id="itel" required autocomplete="tel">
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
