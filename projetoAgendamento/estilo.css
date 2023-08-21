@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body, html {
+    background: url(imagens/telaDeFundo.jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 98vh;
+    margin: 10px;
+}
+
+header {
+    color: rgba(255, 255, 255, 0.805);
+    font-size: 2.5em;
+    width: 380px;
+    position: absolute;
+    bottom: 10px;
+}
+
+section > form {
+    color: white;
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    transform: translate(-60% -50%);
+    
+}
+
+p.caixa {
+    font-size: 2em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.081);
+    position: relative;
+    left: 40%;
+}
+
+p#botaoagenda {
+    text-align: center; 
+    display: block;
+    transform: scale(2.5);
+    
+}
