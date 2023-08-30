@@ -1,18 +1,28 @@
 @charset "UTF-8";
 
+
+
 body, html {
     background: url(imagens/telaDeFundo.jpg) center center no-repeat fixed;
     background-size: cover;
-    height: 98vh;
+    height: 100vh;
+    width: 100vw;
     margin: 10px;
+    
 }
 
 header {
     color: rgba(255, 255, 255, 0.805);
     font-size: 2.5em;
-    width: 380px;
+    min-width: 380px;
     position: absolute;
     bottom: 10px;
+    
+}
+
+section {
+    max-width: 600px;
+    min-width: 250px;
 }
 
 section > form {
